@@ -11,3 +11,17 @@
     @apply font-quicksand
   }
 }
+
+@layer components {
+  .btn {
+    @apply py-3 px-10 text-lg rounded-full ring-2 transition-all
+  }
+  
+  .btn-purple {
+    @apply ring-purple-700 hover:bg-purple-700
+  }
+
+  .btn-teal {
+    @apply ring-teal-400 hover:bg-teal-400
+  }
+}
